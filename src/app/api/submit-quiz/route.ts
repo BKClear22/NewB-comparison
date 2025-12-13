@@ -151,10 +151,9 @@ export async function POST(request: NextRequest) {
 
     const values = [row];
 
-    // Append to Google Sheet using REST API
-    const range = encodeURIComponent('leads!A:T');
-    const response = await fetch(
-      `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}:append?valueInputOption=RAW`,
+    // Try to append to Google Sheet - first try "leads" tab, then fall back to "Sheet1"
+    let response = await fetch(
+      `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${encodeURIComponent('leads!A:T')}:append?valueInputOption=RAW`,
       {
         method: 'POST',
         headers: {
@@ -167,11 +166,32 @@ export async function POST(request: NextRequest) {
       }
     );
 
+    // If "leads" sheet doesn't exist, try "Sheet1"
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('First attempt (leads) failed:', errorText);
+
+      // Try Sheet1 as fallback
+      response = await fetch(
+        `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${encodeURIComponent('Sheet1!A:T')}:append?valueInputOption=RAW`,
+        {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${accessToken}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            values,
+          }),
+        }
+      );
+    }
+
     if (!response.ok) {
       const error = await response.text();
       console.error('Google Sheets API error:', error);
       return NextResponse.json(
-        { success: false, error: 'Failed to save data to Google Sheets' },
+        { success: false, error: `Failed to save data to Google Sheets: ${error}` },
         { status: 500 }
       );
     }
