@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Crimson_Text } from "next/font/google";
 import "./globals.css";
+import StickyCallButton from "@/components/StickyCallButton";
 
 const crimsonText = Crimson_Text({
   variable: "--font-crimson",
@@ -45,6 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {children}
+        <StickyCallButton />
       </body>
     </html>
   );
