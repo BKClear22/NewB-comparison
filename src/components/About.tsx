@@ -16,27 +16,25 @@ export default function About() {
             viewport={{ once: true }}
           >
             <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
-              Who We Are
+              The New Beginnings Difference
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
-              Your Path to Healing and Hope
+              Small by Design. Personal by Choice.
             </h2>
             <p className="text-xl text-[#374151] leading-relaxed mb-6">
-              Every person&apos;s journey to recovery is unique, and at New
-              Beginnings Detox & Recovery, we honor your individual story. Our
-              peaceful Sylmar location provides the perfect backdrop for
-              transformation—nestled in a quiet neighborhood away from the
-              stresses of everyday life.
+              Most rehabs try to maximize profits by packing in as many patients
+              as possible. We took a different approach. With only 6 residents
+              at a time, our staff doesn&apos;t just treat conditions—they build
+              genuine relationships that support lasting recovery.
             </p>
             <p className="text-xl text-[#374151] leading-relaxed mb-8">
-              We believe in treating the whole person, not just the addiction.
-              Our integrated approach combines proven medical care with
-              emotional support and practical life skills. From the moment you
-              walk through our doors, you&apos;ll feel the difference that
-              personalized, compassionate care can make.
+              No rotating doctors who barely know your name. No group sessions
+              with 30 strangers. At New Beginnings, you get a dedicated team,
+              individualized treatment plans, and the focused attention that
+              large facilities simply cannot provide.
             </p>
             <Link
-              href="tel:+18445246612"
+              href="tel:+18447954258"
               className="inline-flex items-center gap-2 border-2 border-[#5F7A8C] text-[#5F7A8C] hover:bg-[#5F7A8C] hover:text-white px-8 py-4 rounded-full transition-colors text-xl font-semibold"
             >
               <svg
@@ -73,27 +71,10 @@ export default function About() {
               />
             </div>
             {/* Floating card */}
-            <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-6 shadow-xl border border-[#E6E1D6] max-w-xs hidden md:block">
-              <div className="flex items-center gap-4">
-                <div className="bg-[#5F7A8C] rounded-full p-3">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-[#1F2937]">100%</div>
-                  <div className="text-[#374151]">Personalized Care</div>
-                </div>
+            <div className="absolute -bottom-8 -left-8 bg-[#5F7A8C] rounded-2xl p-6 shadow-xl max-w-xs hidden md:block">
+              <div className="text-center text-white">
+                <div className="text-4xl font-bold mb-1">6 vs 50+</div>
+                <div className="text-white/90">Our capacity vs. typical facilities</div>
               </div>
             </div>
           </motion.div>

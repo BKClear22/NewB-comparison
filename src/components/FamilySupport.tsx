@@ -14,21 +14,21 @@ export default function FamilySupport() {
           className="text-center max-w-4xl mx-auto"
         >
           <span className="text-white/80 text-lg font-semibold uppercase tracking-wider">
-            Family Support
+            Real Family Involvement
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 mb-6">
-            Your Family&apos;s Journey Too
+            We Actually Include Your Family
           </h2>
           <p className="text-xl text-white/90 leading-relaxed mb-8">
-            Recovery isn&apos;t just your journey—it&apos;s your family&apos;s too. At New
-            Beginnings Detox & Recovery, we offer dedicated family programs and
-            therapy sessions to help loved ones heal alongside you.
+            Most facilities offer a token &quot;family day&quot; once a month. We believe
+            that&apos;s not enough. With only 6 residents, we have the capacity
+            to involve your family throughout your treatment—not as an afterthought,
+            but as a core part of your recovery.
           </p>
           <p className="text-xl text-white/90 leading-relaxed">
-            Through education, open communication, and guided support, we help
-            families understand addiction and mental health while rebuilding
-            trust and connection. Together, we create a strong support system
-            for lasting recovery.
+            Your family gets real access to your treatment team, meaningful therapy
+            sessions, and ongoing education. Because lasting recovery happens when
+            everyone is on the same page.
           </p>
         </motion.div>
 

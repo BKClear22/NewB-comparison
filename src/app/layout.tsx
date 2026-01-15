@@ -10,9 +10,9 @@ const crimsonText = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "New Beginnings Detox & Recovery | Sylmar, California",
-  description: "Your journey to recovery starts here. Safe, professional treatment for substance use and mental health challenges in Sylmar, California.",
-  keywords: "detox, recovery, rehabilitation, substance abuse, mental health, Sylmar, California, addiction treatment",
+  title: "New Beginnings Detox & Recovery | Personalized Addiction Treatment",
+  description: "Your journey to recovery starts here. With only 6 residents, we provide truly personalized care for substance use and mental health challenges.",
+  keywords: "detox, recovery, rehabilitation, substance abuse, mental health, addiction treatment, personalized care",
 };
 
 export default function RootLayout({

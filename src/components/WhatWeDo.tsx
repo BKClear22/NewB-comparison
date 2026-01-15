@@ -45,21 +45,20 @@ export default function WhatWeDo() {
             className="order-1 md:order-2"
           >
             <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
-              What We Do
+              Your Daily Experience
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
-              A Day at New Beginnings
+              Recovery Without the Chaos
             </h2>
             <p className="text-xl text-[#374151] leading-relaxed mb-8">
-              Each day begins in a comfortable, home-like environment designed
-              to promote healing and growth. You&apos;ll participate in individual
-              and group therapy sessions, enjoy nutritious meals prepared by our
-              on-site chef, and have time for reflection and personal
-              development.
+              No crowded common rooms. No fighting for your therapist&apos;s time.
+              With just 6 residents, every day is structured around your needs—
+              chef-prepared meals, meaningful therapy sessions, and activities
+              that actually fit your recovery plan.
             </p>
             <div className="bg-[#F7F3EA] rounded-2xl p-6 md:p-8 border border-[#E6E1D6]">
               <h3 className="text-xl font-bold text-[#1F2937] mb-4">
-                Our Holistic Activities
+                Activities You&apos;ll Actually Attend (Not Just Sign Up For)
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {activities.map((activity, index) => (

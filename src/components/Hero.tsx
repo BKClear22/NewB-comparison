@@ -21,13 +21,21 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 md:py-32">
         <div className="text-center max-w-4xl mx-auto">
+          <motion.span
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="text-lg md:text-xl text-white/80 uppercase tracking-wider font-semibold mb-4 block drop-shadow-md"
+          >
+            You Deserve More Than a Number
+          </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 drop-shadow-lg"
           >
-            Your Journey to Recovery Starts Here
+            Why We&apos;re Not Like Other Rehabs
           </motion.h1>
 
           <motion.p
@@ -36,31 +44,35 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed drop-shadow-md"
           >
-            At New Beginnings Detox & Recovery, we understand that taking the
-            first step toward healing is often the hardest. That&apos;s why we&apos;re
-            here to walk beside you every step of the way. Our caring,
-            experienced team provides safe, professional treatment for substance
-            use and mental health challenges in our welcoming Sylmar, California
-            facility.
+            While other facilities pack in 50+ patients, we limit ours to just 6.
+            That means real relationships with staff who know your name, your story,
+            and your goals. At New Beginnings, you&apos;re not a file—you&apos;re family.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex justify-center"
           >
             <Link
-              href="/quiz"
-              className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-10 py-4 rounded-full transition-colors text-xl font-semibold shadow-lg hover:shadow-xl"
+              href="tel:+18447954258"
+              className="bg-white hover:bg-gray-100 text-[#1F2937] px-12 py-5 rounded-full transition-colors text-2xl font-bold shadow-lg hover:shadow-xl inline-flex items-center gap-3"
             >
-              Get Help Today
-            </Link>
-            <Link
-              href="tel:+18445246612"
-              className="border-2 border-white text-white hover:bg-white hover:text-[#1F2937] px-10 py-4 rounded-full transition-colors text-xl font-semibold"
-            >
-              Call Us Now
+              <svg
+                className="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                />
+              </svg>
+              Call (844) 795-4258
             </Link>
           </motion.div>
 
@@ -69,25 +81,23 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-16 flex flex-wrap justify-center gap-8 text-white"
+            className="mt-16 flex flex-wrap justify-center gap-6 text-white"
           >
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-              </svg>
-              <span className="text-lg">Licensed Facility</span>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full">
+              <span className="text-2xl font-bold">6</span>
+              <span className="text-lg">Max Residents</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-              </svg>
-              <span className="text-lg">24/7 Support</span>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full">
+              <span className="text-2xl font-bold">6:1</span>
+              <span className="text-lg">Staff Ratio</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-              </svg>
-              <span className="text-lg">Compassionate Care</span>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full">
+              <span className="text-2xl font-bold">100%</span>
+              <span className="text-lg">Personalized Care</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full">
+              <span className="text-2xl font-bold">24/7</span>
+              <span className="text-lg">Support</span>
             </div>
           </motion.div>
         </div>

@@ -8,8 +8,8 @@ import Link from "next/link";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
+  { href: "#why-us", label: "Why Us" },
   { href: "#facility", label: "Facility" },
-  { href: "#process", label: "Process" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -44,7 +44,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="tel:+18445246612"
+              href="tel:+18447954258"
               className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-6 py-3 rounded-full transition-colors text-lg font-semibold"
             >
               Call Now
@@ -103,7 +103,7 @@ export default function Header() {
                   </Link>
                 ))}
                 <Link
-                  href="tel:+18445246612"
+                  href="tel:+18447954258"
                   className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-6 py-3 rounded-full transition-colors text-lg font-semibold text-center mt-2"
                 >
                   Call Now

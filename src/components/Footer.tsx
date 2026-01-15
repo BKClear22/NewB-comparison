@@ -32,16 +32,16 @@ export default function Footer() {
               Services
             </Link>
             <Link
+              href="#why-us"
+              className="text-white/70 hover:text-white transition-colors"
+            >
+              Why Us
+            </Link>
+            <Link
               href="#facility"
               className="text-white/70 hover:text-white transition-colors"
             >
               Facility
-            </Link>
-            <Link
-              href="#process"
-              className="text-white/70 hover:text-white transition-colors"
-            >
-              Process
             </Link>
             <Link
               href="#contact"

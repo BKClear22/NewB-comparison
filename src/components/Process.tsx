@@ -6,21 +6,21 @@ import Image from "next/image";
 const steps = [
   {
     number: "01",
-    title: "Personalized Assessment",
+    title: "Real Assessment",
     description:
-      "We begin with a private, one-on-one assessment to understand your needs, challenges, and goals.",
+      "Not a 10-minute intake form. We spend real time understanding your situation—because cookie-cutter assessments lead to cookie-cutter treatment.",
   },
   {
     number: "02",
-    title: "Customized Treatment Plan",
+    title: "Your Plan, Not Ours",
     description:
-      "Using your assessment, we design a tailored plan that may include detox, therapy, wellness activities, and mental health support.",
+      "Your treatment plan is built around your specific needs, not squeezed into a pre-made program. And it evolves as you do.",
   },
   {
     number: "03",
-    title: "Ongoing Support & Recovery",
+    title: "Continuous Attention",
     description:
-      "Our team supports you throughout your program, helping you build healthy habits and a strong foundation for long-term recovery.",
+      "With our 6:1 ratio, you're never waiting for support. Your dedicated team is there every step—not just checking boxes.",
   },
 ];
 
@@ -36,14 +36,14 @@ export default function Process() {
             viewport={{ once: true }}
           >
             <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
-              Process
+              How It Works
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
-              Your Path to Recovery
+              Treatment That&apos;s Actually Personal
             </h2>
             <p className="text-xl text-[#374151] leading-relaxed">
-              At New Beginnings Detox & Recovery, we make the journey to healing
-              simple and supportive through three clear steps.
+              Every large facility promises &quot;individualized care.&quot; Here&apos;s
+              how we actually deliver it.
             </p>
           </motion.div>
 
@@ -65,8 +65,8 @@ export default function Process() {
             </div>
             {/* Success badge */}
             <div className="absolute -bottom-6 -right-6 bg-[#5F7A8C] text-white rounded-2xl p-6 shadow-xl hidden md:block">
-              <div className="text-3xl font-bold">Success</div>
-              <div className="text-white/80">Starts Here</div>
+              <div className="text-3xl font-bold">6:1</div>
+              <div className="text-white/80">Staff to Patient</div>
             </div>
           </motion.div>
         </div>

@@ -26,13 +26,13 @@ export default function Contact() {
             answer your questions and guide you through the process.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="flex justify-center mb-16">
             <Link
-              href="tel:+18445246612"
-              className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-10 py-4 rounded-full transition-colors text-xl font-semibold inline-flex items-center justify-center gap-2"
+              href="tel:+18447954258"
+              className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-12 py-5 rounded-full transition-colors text-2xl font-semibold inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl"
             >
               <svg
-                className="w-6 h-6"
+                className="w-7 h-7"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -44,13 +44,7 @@ export default function Contact() {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              Call Now
-            </Link>
-            <Link
-              href="/quiz"
-              className="bg-white hover:bg-gray-100 text-[#1F2937] px-10 py-4 rounded-full transition-colors text-xl font-semibold"
-            >
-              Get Help Today
+              Call (844) 795-4258
             </Link>
           </div>
         </motion.div>
@@ -75,18 +69,12 @@ export default function Contact() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                 />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-white mb-2">Location</h3>
-            <p className="text-white/70">Sylmar, California</p>
+            <h3 className="text-xl font-bold text-white mb-2">Only 6 Residents</h3>
+            <p className="text-white/70">Intimate, personalized care</p>
           </div>
 
           <div className="text-center">

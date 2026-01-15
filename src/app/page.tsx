@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import WhatWeDo from "@/components/WhatWeDo";
 import FamilySupport from "@/components/FamilySupport";
 import Facility from "@/components/Facility";
@@ -15,12 +16,13 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <WhyChooseUs />
         <About />
         <Services />
-        <WhatWeDo />
-        <FamilySupport />
-        <Facility />
         <Process />
+        <WhatWeDo />
+        <Facility />
+        <FamilySupport />
         <Contact />
       </main>
       <Footer />

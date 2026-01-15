@@ -5,27 +5,27 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Detox Services",
+    title: "Personalized Detox",
     description:
-      "We carefully manage withdrawal symptoms with medical supervision and compassion, creating personalized plans that address substance use and any co-occurring mental health concerns.",
+      "Unlike large facilities with assembly-line detox, we create an individualized plan for your specific situation. Your dedicated medical team monitors you around the clock—not a rotating staff who barely knows your case.",
     image: "/detox.webp",
   },
   {
-    title: "Residential Treatment",
+    title: "Intimate Residential Care",
     description:
-      "Our Residential Treatment program provides a safe, structured, and healing environment for individuals ready to take the next step after detox.",
+      "With only 6 residents, you're not competing for attention. Our home-like environment and close-knit community create the trust and connection that crowded facilities can never offer.",
     image: "/residential.webp",
   },
   {
-    title: "Dual Diagnosis Treatment",
+    title: "True Dual Diagnosis",
     description:
-      "Because mental health and substance use often go hand in hand, we treat both simultaneously with personalized, integrated care plans.",
+      "Many facilities claim dual diagnosis but treat mental health as an afterthought. Here, your mental health and addiction treatment are fully integrated from day one—because we have the staff ratio to do it right.",
     image: "/dual-diagnosis.webp",
   },
   {
-    title: "Mental Health Services",
+    title: "Focused Mental Health",
     description:
-      "We offer compassionate support for anxiety, depression, trauma, and other emotional challenges—helping you regain balance and clarity.",
+      "Anxiety, depression, trauma—these need real attention, not 15-minute check-ins. Our small setting means your therapist actually knows you, tracks your progress, and adjusts your care in real-time.",
     image: "/mental-health.webp",
   },
 ];
@@ -61,16 +61,15 @@ export default function Services() {
           className="text-center mb-16"
         >
           <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
-            Our Services
+            Treatment Done Right
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
-            Why Choose New Beginnings?
+            Quality Over Quantity
           </h2>
           <p className="text-xl text-[#374151] max-w-3xl mx-auto">
-            We offer medically supervised detox and comprehensive recovery
-            programs tailored to your needs. Our experienced staff brings
-            compassion, respect, and understanding to every interaction—ensuring
-            you feel supported throughout your journey.
+            Big facilities spread their staff thin across dozens of patients.
+            We focus our expertise on just 6 people at a time—delivering the
+            depth of care that actually produces lasting results.
           </p>
         </motion.div>
 
@@ -87,11 +86,12 @@ export default function Services() {
               variants={itemVariants}
               className="bg-white rounded-2xl overflow-hidden border border-[#E6E1D6] hover:shadow-lg transition-shadow"
             >
-              <div className="relative h-72 w-full">
+              <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <Image
                   src={service.image}
                   alt={service.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
