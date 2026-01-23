@@ -34,7 +34,7 @@ export default function About() {
               large facilities simply cannot provide.
             </p>
             <Link
-              href="tel:+18447954258"
+              href="tel:+18449893190"
               className="inline-flex items-center gap-2 border-2 border-[#5F7A8C] text-[#5F7A8C] hover:bg-[#5F7A8C] hover:text-white px-8 py-4 rounded-full transition-colors text-xl font-semibold"
             >
               <svg
