@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 md:py-32 bg-[#1F2937]">
+    <section id="contact" className="py-20 md:py-32 bg-[#1B5E20]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -14,7 +14,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center max-w-4xl mx-auto"
         >
-          <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+          <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
             Contact Us
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 mb-6">
@@ -29,7 +29,7 @@ export default function Contact() {
           <div className="flex justify-center mb-16">
             <Link
               href="tel:+18449893190"
-              className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-12 py-5 rounded-full transition-colors text-2xl font-semibold inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl"
+              className="bg-[#4CAF50] hover:bg-[#388E3C] text-white px-12 py-5 rounded-full transition-colors text-2xl font-semibold inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl"
             >
               <svg
                 className="w-7 h-7"
@@ -58,7 +58,7 @@ export default function Contact() {
           className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto"
         >
           <div className="text-center">
-            <div className="bg-[#5F7A8C] rounded-full p-4 w-fit mx-auto mb-4">
+            <div className="bg-[#4CAF50] rounded-full p-4 w-fit mx-auto mb-4">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -78,7 +78,7 @@ export default function Contact() {
           </div>
 
           <div className="text-center">
-            <div className="bg-[#5F7A8C] rounded-full p-4 w-fit mx-auto mb-4">
+            <div className="bg-[#4CAF50] rounded-full p-4 w-fit mx-auto mb-4">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -98,7 +98,7 @@ export default function Contact() {
           </div>
 
           <div className="text-center">
-            <div className="bg-[#5F7A8C] rounded-full p-4 w-fit mx-auto mb-4">
+            <div className="bg-[#4CAF50] rounded-full p-4 w-fit mx-auto mb-4">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function FamilySupport() {
   return (
-    <section className="py-20 md:py-32 bg-[#5F7A8C]">
+    <section className="py-20 md:py-32 bg-[#4CAF50]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -42,7 +42,7 @@ export default function FamilySupport() {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
             <div className="bg-white rounded-full p-4 w-fit mx-auto mb-4">
               <svg
-                className="w-8 h-8 text-[#5F7A8C]"
+                className="w-8 h-8 text-[#43A047]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -66,7 +66,7 @@ export default function FamilySupport() {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
             <div className="bg-white rounded-full p-4 w-fit mx-auto mb-4">
               <svg
-                className="w-8 h-8 text-[#5F7A8C]"
+                className="w-8 h-8 text-[#43A047]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ export default function FamilySupport() {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
             <div className="bg-white rounded-full p-4 w-fit mx-auto mb-4">
               <svg
-                className="w-8 h-8 text-[#5F7A8C]"
+                className="w-8 h-8 text-[#43A047]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

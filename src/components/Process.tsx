@@ -35,10 +35,10 @@ export default function Process() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+            <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
               How It Works
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B5E20] mt-4 mb-6">
               Treatment That&apos;s Actually Personal
             </h2>
             <p className="text-xl text-[#374151] leading-relaxed">
@@ -64,7 +64,7 @@ export default function Process() {
               />
             </div>
             {/* Success badge */}
-            <div className="absolute -bottom-6 -right-6 bg-[#5F7A8C] text-white rounded-2xl p-6 shadow-xl hidden md:block">
+            <div className="absolute -bottom-6 -right-6 bg-[#4CAF50] text-white rounded-2xl p-6 shadow-xl hidden md:block">
               <div className="text-3xl font-bold">6:1</div>
               <div className="text-white/80">Staff to Patient</div>
             </div>
@@ -73,7 +73,7 @@ export default function Process() {
 
         <div className="relative">
           {/* Connection Line */}
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-[#E6E1D6] -translate-y-1/2 z-0" />
+          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-[#81C784] -translate-y-1/2 z-0" />
 
           <div className="grid md:grid-cols-3 gap-8 relative z-10">
             {steps.map((step, index) => (
@@ -85,14 +85,14 @@ export default function Process() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="bg-[#F7F3EA] rounded-2xl p-8 border border-[#E6E1D6] h-full">
+                <div className="bg-[#C8E6C9] rounded-2xl p-8 border border-[#81C784] h-full">
                   <div className="flex items-center gap-4 mb-6">
-                    <div className="bg-[#5F7A8C] text-white text-2xl font-bold w-16 h-16 rounded-full flex items-center justify-center">
+                    <div className="bg-[#4CAF50] text-white text-2xl font-bold w-16 h-16 rounded-full flex items-center justify-center">
                       {step.number}
                     </div>
-                    <div className="h-px bg-[#E6E1D6] flex-1" />
+                    <div className="h-px bg-[#81C784] flex-1" />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#1F2937] mb-4">
+                  <h3 className="text-2xl font-bold text-[#1B5E20] mb-4">
                     {step.title}
                   </h3>
                   <p className="text-lg text-[#374151] leading-relaxed">

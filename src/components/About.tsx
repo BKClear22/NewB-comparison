@@ -15,10 +15,10 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+            <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
               The New Beginnings Difference
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B5E20] mt-4 mb-6">
               Small by Design. Personal by Choice.
             </h2>
             <p className="text-xl text-[#374151] leading-relaxed mb-6">
@@ -35,7 +35,7 @@ export default function About() {
             </p>
             <Link
               href="tel:+18449893190"
-              className="inline-flex items-center gap-2 border-2 border-[#5F7A8C] text-[#5F7A8C] hover:bg-[#5F7A8C] hover:text-white px-8 py-4 rounded-full transition-colors text-xl font-semibold"
+              className="inline-flex items-center gap-2 border-2 border-[#4CAF50] text-[#1B5E20] hover:bg-[#4CAF50] hover:text-white px-8 py-4 rounded-full transition-colors text-xl font-semibold"
             >
               <svg
                 className="w-6 h-6"
@@ -71,7 +71,7 @@ export default function About() {
               />
             </div>
             {/* Floating card */}
-            <div className="absolute -bottom-8 -left-8 bg-[#5F7A8C] rounded-2xl p-6 shadow-xl max-w-xs hidden md:block">
+            <div className="absolute -bottom-8 -left-8 bg-[#4CAF50] rounded-2xl p-6 shadow-xl max-w-xs hidden md:block">
               <div className="text-center text-white">
                 <div className="text-4xl font-bold mb-1">6 vs 50+</div>
                 <div className="text-white/90">Our capacity vs. typical facilities</div>

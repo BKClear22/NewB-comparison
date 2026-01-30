@@ -95,10 +95,10 @@ export default function WhyChooseUs() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+          <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
             The New Beginnings Difference
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B5E20] mt-4 mb-6">
             Why We&apos;re Not Like Other Rehabs
           </h2>
           <p className="text-xl text-[#374151] max-w-3xl mx-auto">
@@ -122,7 +122,7 @@ export default function WhyChooseUs() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="text-center p-8 bg-gradient-to-br from-[#5F7A8C] to-[#516A7A] rounded-2xl text-white"
+              className="text-center p-8 bg-gradient-to-br from-[#4CAF50] to-[#388E3C] rounded-2xl text-white"
             >
               <div className="text-5xl md:text-6xl font-bold mb-2">{item.stat}</div>
               <div className="text-xl font-semibold mb-2">{item.label}</div>
@@ -139,7 +139,7 @@ export default function WhyChooseUs() {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <h3 className="text-2xl md:text-3xl font-bold text-[#1F2937] text-center mb-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-[#1B5E20] text-center mb-12">
             See the Difference
           </h3>
 
@@ -151,13 +151,13 @@ export default function WhyChooseUs() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-[#F7F3EA] rounded-2xl p-6 md:p-8 border border-[#E6E1D6]"
+                className="bg-[#C8E6C9] rounded-2xl p-6 md:p-8 border border-[#81C784]"
               >
                 <div className="grid md:grid-cols-[1fr_2fr_2fr] gap-6 items-center">
                   {/* Feature Name */}
                   <div className="flex items-center gap-4">
-                    <div className="text-[#5F7A8C]">{item.icon}</div>
-                    <span className="text-lg font-bold text-[#1F2937]">{item.feature}</span>
+                    <div className="text-[#43A047]">{item.icon}</div>
+                    <span className="text-lg font-bold text-[#1B5E20]">{item.feature}</span>
                   </div>
 
                   {/* Others */}
@@ -174,15 +174,15 @@ export default function WhyChooseUs() {
                   </div>
 
                   {/* Us */}
-                  <div className="flex items-center gap-3 p-4 bg-[#5F7A8C]/10 rounded-xl border-2 border-[#5F7A8C]/30">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#5F7A8C] flex items-center justify-center">
+                  <div className="flex items-center gap-3 p-4 bg-[#4CAF50]/10 rounded-xl border-2 border-[#4CAF50]/30">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#4CAF50] flex items-center justify-center">
                       <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
                     <div>
-                      <div className="text-xs text-[#5F7A8C] uppercase tracking-wide mb-1 font-semibold">New Beginnings</div>
-                      <div className="text-[#1F2937] font-semibold">{item.us}</div>
+                      <div className="text-xs text-[#43A047] uppercase tracking-wide mb-1 font-semibold">New Beginnings</div>
+                      <div className="text-[#1B5E20] font-semibold">{item.us}</div>
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ export default function WhyChooseUs() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center bg-[#1F2937] rounded-3xl p-10 md:p-16"
+          className="text-center bg-[#1B5E20] rounded-3xl p-10 md:p-16"
         >
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
             You Deserve More Than a Number
@@ -209,7 +209,7 @@ export default function WhyChooseUs() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+18449893190"
-              className="bg-[#5F7A8C] hover:bg-[#516A7A] text-white px-10 py-4 rounded-full transition-colors text-xl font-semibold inline-flex items-center justify-center gap-2"
+              className="bg-[#4CAF50] hover:bg-[#388E3C] text-white px-10 py-4 rounded-full transition-colors text-xl font-semibold inline-flex items-center justify-center gap-2"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -218,7 +218,7 @@ export default function WhyChooseUs() {
             </a>
             <a
               href="#contact"
-              className="bg-white hover:bg-gray-100 text-[#1F2937] px-10 py-4 rounded-full transition-colors text-xl font-semibold"
+              className="bg-white hover:bg-gray-100 text-[#1B5E20] px-10 py-4 rounded-full transition-colors text-xl font-semibold"
             >
               Learn More
             </a>

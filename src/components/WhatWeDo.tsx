@@ -44,10 +44,10 @@ export default function WhatWeDo() {
             viewport={{ once: true }}
             className="order-1 md:order-2"
           >
-            <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+            <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
               Your Daily Experience
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B5E20] mt-4 mb-6">
               Recovery Without the Chaos
             </h2>
             <p className="text-xl text-[#374151] leading-relaxed mb-8">
@@ -56,8 +56,8 @@ export default function WhatWeDo() {
               chef-prepared meals, meaningful therapy sessions, and activities
               that actually fit your recovery plan.
             </p>
-            <div className="bg-[#F7F3EA] rounded-2xl p-6 md:p-8 border border-[#E6E1D6]">
-              <h3 className="text-xl font-bold text-[#1F2937] mb-4">
+            <div className="bg-[#C8E6C9] rounded-2xl p-6 md:p-8 border border-[#81C784]">
+              <h3 className="text-xl font-bold text-[#1B5E20] mb-4">
                 Activities You&apos;ll Actually Attend (Not Just Sign Up For)
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -70,7 +70,7 @@ export default function WhatWeDo() {
                     viewport={{ once: true }}
                     className="flex items-center gap-3"
                   >
-                    <div className="bg-[#5F7A8C] rounded-full p-1 flex-shrink-0">
+                    <div className="bg-[#4CAF50] rounded-full p-1 flex-shrink-0">
                       <svg
                         className="w-4 h-4 text-white"
                         fill="none"

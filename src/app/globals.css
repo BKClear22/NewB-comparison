@@ -2,13 +2,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F7F3EA;
+  --background: #FFFFFF;
   --foreground: #374151;
-  --primary: #5F7A8C;
-  --primary-hover: #516A7A;
-  --heading: #1F2937;
+  --primary: #4CAF50;
+  --primary-hover: #388E3C;
+  --heading: #1B5E20;
   --surface: #FFFFFF;
-  --border: #E6E1D6;
+  --border: #81C784;
+  --accent: #43A047;
 }
 
 @theme inline {
@@ -19,6 +20,7 @@
   --color-heading: var(--heading);
   --color-surface: var(--surface);
   --color-border: var(--border);
+  --color-accent: var(--accent);
   --font-serif: 'Crimson Text', serif;
 }
 
@@ -49,4 +51,28 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-hover);
+}
+
+/* Glow effect for buttons */
+.glow {
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.5),
+              0 0 40px rgba(76, 175, 80, 0.3),
+              0 0 60px rgba(76, 175, 80, 0.1);
+}
+
+/* Shimmer animation for attention */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    #81C784 50%,
+    var(--primary) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
 }

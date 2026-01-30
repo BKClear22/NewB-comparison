@@ -51,7 +51,7 @@ const itemVariants = {
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-32 bg-[#F7F3EA]">
+    <section id="services" className="py-20 md:py-32 bg-[#C8E6C9]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -60,10 +60,10 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+          <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
             Treatment Done Right
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B5E20] mt-4 mb-6">
             Quality Over Quantity
           </h2>
           <p className="text-xl text-[#374151] max-w-3xl mx-auto">
@@ -84,7 +84,7 @@ export default function Services() {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-white rounded-2xl overflow-hidden border border-[#E6E1D6] hover:shadow-lg transition-shadow"
+              className="bg-white rounded-2xl overflow-hidden border border-[#81C784] hover:shadow-lg transition-shadow"
             >
               <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <Image
@@ -97,7 +97,7 @@ export default function Services() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
               </div>
               <div className="p-8 md:p-10">
-                <h3 className="text-2xl font-bold text-[#1F2937] mb-4">
+                <h3 className="text-2xl font-bold text-[#1B5E20] mb-4">
                   {service.title}
                 </h3>
                 <p className="text-lg text-[#374151] leading-relaxed">

@@ -13,7 +13,7 @@ const facilityImages = [
 
 export default function Facility() {
   return (
-    <section id="facility" className="py-20 md:py-32 bg-[#F7F3EA]">
+    <section id="facility" className="py-20 md:py-32 bg-[#C8E6C9]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -22,10 +22,10 @@ export default function Facility() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-[#5F7A8C] text-lg font-semibold uppercase tracking-wider">
+          <span className="text-[#43A047] text-lg font-semibold uppercase tracking-wider">
             Facility & Amenities
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mt-4 mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B5E20] mt-4 mb-6">
             Our Facility
           </h2>
           <p className="text-xl text-[#374151] max-w-3xl mx-auto">
@@ -72,14 +72,14 @@ export default function Facility() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-white rounded-2xl p-8 md:p-12 border border-[#E6E1D6]"
+            className="bg-white rounded-2xl p-8 md:p-12 border border-[#81C784]"
           >
-            <h3 className="text-2xl font-bold text-[#1F2937] mb-6">
+            <h3 className="text-2xl font-bold text-[#1B5E20] mb-6">
               Our facility features:
             </h3>
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
-                <div className="bg-[#5F7A8C] rounded-full p-1">
+                <div className="bg-[#4CAF50] rounded-full p-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -87,7 +87,7 @@ export default function Facility() {
                 <span className="text-lg text-[#374151]">Cozy common areas</span>
               </li>
               <li className="flex items-center gap-3">
-                <div className="bg-[#5F7A8C] rounded-full p-1">
+                <div className="bg-[#4CAF50] rounded-full p-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -95,7 +95,7 @@ export default function Facility() {
                 <span className="text-lg text-[#374151]">Spacious bedrooms</span>
               </li>
               <li className="flex items-center gap-3">
-                <div className="bg-[#5F7A8C] rounded-full p-1">
+                <div className="bg-[#4CAF50] rounded-full p-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -103,7 +103,7 @@ export default function Facility() {
                 <span className="text-lg text-[#374151]">Modern bathrooms</span>
               </li>
               <li className="flex items-center gap-3">
-                <div className="bg-[#5F7A8C] rounded-full p-1">
+                <div className="bg-[#4CAF50] rounded-full p-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -111,7 +111,7 @@ export default function Facility() {
                 <span className="text-lg text-[#374151]">Chef-prepared meals</span>
               </li>
               <li className="flex items-center gap-3">
-                <div className="bg-[#5F7A8C] rounded-full p-1">
+                <div className="bg-[#4CAF50] rounded-full p-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -132,7 +132,7 @@ export default function Facility() {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-[#5F7A8C] to-[#516A7A] rounded-2xl p-8 md:p-12 text-white">
+            <div className="bg-gradient-to-br from-[#4CAF50] to-[#388E3C] rounded-2xl p-8 md:p-12 text-white">
               <div className="text-center">
                 <div className="text-7xl font-bold mb-4">6</div>
                 <div className="text-2xl font-semibold mb-4">
