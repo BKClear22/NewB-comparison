@@ -9,7 +9,7 @@ export default function StickyCallButton() {
       <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-gradient-to-t from-white via-white to-transparent md:hidden">
         <Link
           href="tel:+18449893190"
-          className="flex items-center justify-center gap-2 w-full bg-[#4CAF50] hover:bg-[#388E3C] text-white py-4 rounded-full transition-colors text-lg font-bold shadow-lg animate-pulse"
+          className="flex items-center justify-center gap-2 w-full bg-[#4CAF50] hover:bg-[#388E3C] text-white py-4 rounded-full transition-colors text-lg font-bold shadow-lg"
         >
           <svg
             className="w-5 h-5 animate-bounce"
