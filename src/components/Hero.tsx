@@ -34,7 +34,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white leading-[0.95] mb-8 tracking-tighter capitalize"
           >
-            Where People Come
+            <span className="whitespace-nowrap">Where People Come</span>
             <br />
             <span className="text-[#A5D6A7] whitespace-nowrap">To Heal Fully</span>
           </motion.h1>
